@@ -40,7 +40,8 @@ return {
     },
     cmd = 'Neogit',
     keys = {
-      { '<leader>gg', '<cmd>Neogit<cr>', desc = 'Show Neogit UI' },
+      { '<leader>gg', '<cmd>Neogit<cr>', desc = 'Neo[G]it open [G]it UI' },
+      { '<leader>gc', '<cmd>Neogit cwd=%:p:h<cr>', desc = 'Neo[G]it open on [C]urrent file' },
     },
   },
   {
