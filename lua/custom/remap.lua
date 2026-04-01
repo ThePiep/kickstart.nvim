@@ -28,6 +28,7 @@ local window_moving_commands = {
   vim.keycode '<C-W>',
   vim.keycode ':',
   vim.keycode '<leader>',
+  vim.keycode ' ',
 }
 
 local function move_focus_window(direction)

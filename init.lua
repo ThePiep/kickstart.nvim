@@ -854,6 +854,13 @@ require('lazy').setup({
       -- - sr)'  - [S]urround [R]eplace [)] [']
       require('mini.surround').setup()
 
+      -- Edit bracket ([ and ]) movement
+      -- - [d    - [previous [D]iagnostic
+      -- - [x    - [previous [X]conflict market
+      -- - [c    - [previous [C]omment
+      -- - [h    - [previous [H]unk
+      require('mini.bracketed').setup()
+
       -- Simple and easy statusline.
       --  You could remove this setup call if you don't like it,
       --  and try some other statusline plugin
